@@ -1,0 +1,10 @@
+#import math#aqui voce importa uma biblioteca
+#num =int(input("Digite um numero:"))
+#raiz=math.sqrt(num)#aqui voce acessa uma função dentro da biblioteca
+#print("A raiz quadrada do numero {} é {}".format(num,raiz))
+#from math import sqrt,floor #imporando a função sqrt de math floor arredonda a raiz para menor
+#num =int(input("Digite um numero:"))
+#raiz=sqrt(num)#aqui voce acessa uma função dentro da biblioteca
+#print("A raiz quadrada do numero {} é {}".format(num,floor(raiz)))
+
+

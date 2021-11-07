@@ -1,0 +1,37 @@
+import random
+num=random.randint(1,10)
+print('numero aleatorio de 1 a 10: ',num)
+
+import math
+
+print(emoji.emojize("Olá Mojao :heartbeat:", use_aliases=True))
+print(emoji.emojize("sorriso :grinning:", use_aliases=True))
+print(emoji.emojize("beijo :kissing:", use_aliases=True))
+
+#num=float(input("Digite um numero: "))
+#num2=float(input("digit um numero: "))
+#num3=math.floor(num/num2)
+#print('a divisão do numero 1 pelo numero 2 vale: ',num3)
+
+#num=float(input("digite um numero: "))
+#num2=float(input("digit um numero: "))
+#num3=(num**2)+(num2**2)
+#print("o valor da hiotenusa desses catetos vale :  {}".format(num3**(1/2)))
+
+
+#n=random.randint(1,4)
+#print('O aluno sorteado para ler o quadro foi: aluno {}'.format(n))#
+
+#ang=float(input('Digite o valor de um angulo:'))
+#angu=math.radians(ang)
+#print('O valor do seno é: {:.2f} e do cosseno: {:.2f}'.format(math.sin(angu), math.cos(angu)))
+
+n1=str(input('Nome do aluno: '))
+n2=str(input('Nome do aluno: '))
+n3=str(input('Nome do aluno: '))
+n4=str(input('Nome do aluno: '))
+Lista=[n1,n2,n3,n4]
+random.shuffle(Lista)
+print('A ordem e: ',Lista)
+n=random.choice(Lista)
+print('O nome escolhido foi ',n)
